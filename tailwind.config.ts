@@ -41,6 +41,9 @@ const config: Config = {
           stackOverflow: "#EC7100",
         },
       },
+      boxShadow: {
+        "cc-purple-shadow": "0px 0px 32px 0px rgba(99, 60, 255, 0.25)",
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
