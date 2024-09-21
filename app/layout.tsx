@@ -25,7 +25,7 @@ export default function RootLayout({
         <link rel="icon" href={favicon.src} sizes="32x32" />
       </head>
       <body className={`${instrumentSans.className} antialiased`}>
-        {children}
+        <main>{children}</main>
       </body>
     </html>
   );
